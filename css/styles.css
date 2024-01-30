@@ -619,9 +619,9 @@ fieldset {
 }
 
 .modal-close-button:hover,
-.modal-close-button:focus,
-.modal-close-button:active {
+.modal-close-button:focus {
   background-color: #404bbf;
+  border: none;
 }
 
 .modal-close-icon {
@@ -694,9 +694,6 @@ fieldset {
   margin-bottom: 16px;
 }
 
-.modal-textarea-container {
-}
-
 .modal-textarea {
   width: 100%;
   height: 120px;
@@ -759,12 +756,6 @@ fieldset {
   border: none;
   fill: #f4f4fd;
 }
-
-/* .span-click .modal-checkbox:checked {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-} */
 
 .privacy-policy {
   color: #4d5ae5;
